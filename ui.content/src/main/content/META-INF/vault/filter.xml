@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/mediasite" mode="merge"/>
+    <filter root="/content/mediasite" mode="merge"/>
+    <filter root="/content/dam/mediasite" mode="merge"/>
+    <filter root="/content/experience-fragments/mediasite" mode="merge"/>
+</workspaceFilter>
