@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-12-13T21:11:43.062+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mediasite/settings/wcm/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Water Heights"
+        sling:resourceType="mediasite/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+        <parcontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <waterheightdetails
+                jcr:created="{Date}2020-12-13T18:52:06.744+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-12-13T19:52:59.347+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mediasite/components/content/waterheightdetails">
+                <mediaheights jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        heights="321"
+                        startDate="{Date}2020-12-14T18:52:00.000+05:30"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        heights="234"
+                        startDate="{Date}2020-12-16T18:52:00.000+05:30"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        heights="110"
+                        startDate="{Date}2020-12-30T19:52:00.000+05:30"/>
+                </mediaheights>
+            </waterheightdetails>
+            <headercomponent
+                jcr:created="{Date}2020-12-13T20:17:35.674+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-12-13T21:11:43.056+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mediasite/components/content/headerComponent"
+                buttonLink="https://www.google.com"
+                buttonText="CTA"
+                file="/content/dam/sightlyMF/e84fe0c6d77c6b12e040cdd76f4d139bx.jpg"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                headerDesc="Header Description&#xd;&#xa;"
+                headerTitle="Header Title"
+                image="/content/dam/sightlyMF/e84fe0c6d77c6b12e040cdd76f4d139bx.jpg"/>
+        </parcontent>
+    </jcr:content>
+</jcr:root>

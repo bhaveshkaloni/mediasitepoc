@@ -59,6 +59,38 @@
                         </cq:authoring>
                     </policy_xfm>
                 </responsivegrid>
+                <parsys jcr:primaryType="nt:unstructured">
+                    <policy_1607860479209
+                        jcr:lastModified="{Date}2020-12-13T17:25:01.188+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="media"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:mediasite.Content,group:mediasite.Form,group:mediasite.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <section jcr:primaryType="nt:unstructured"/>
+                    </policy_1607860479209>
+                    <policy_1609307979508
+                        jcr:lastModified="{Date}2020-12-30T11:30:00.320+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:Adaptive Form]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <section jcr:primaryType="nt:unstructured"/>
+                    </policy_1609307979508>
+                    <policy_416756321770000
+                        jcr:lastModified="{Date}2021-01-18T12:40:22.464+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Philips"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:mediasite.Content">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <section jcr:primaryType="nt:unstructured"/>
+                    </policy_416756321770000>
+                </parsys>
             </components>
         </foundation>
     </wcm>
@@ -281,7 +313,7 @@
                         jcr:title="mediasite Experience Fragment - Footer"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_footer>
+                    </policy_footer>
                 </experiencefragment>
             </content>
             <structure jcr:primaryType="nt:unstructured">

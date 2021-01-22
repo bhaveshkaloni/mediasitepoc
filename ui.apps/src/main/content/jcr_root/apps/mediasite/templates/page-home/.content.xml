@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:description="Template for initial or main page of the site."
     jcr:primaryType="cq:Template"
     jcr:title="mediasite Home Page"
@@ -11,9 +11,6 @@
         <logo
             jcr:primaryType="nt:unstructured"
             sling:resourceType="mediasite/components/structure/logo"/>
-        <title
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="mediasite/components/content/title"/>
         <topnav
             jcr:primaryType="nt:unstructured"
             sling:resourceType="mediasite/components/structure/topnav"/>
@@ -26,5 +23,8 @@
                 text="&lt;p>This is a home page&lt;/p>"
                 textIsRich="true"/>
         </par>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mediasite/components/content/title"/>
     </jcr:content>
 </jcr:root>

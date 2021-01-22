@@ -1,0 +1,20 @@
+<sly data-sly-use.refObject="com.mediasite.core.models.MediaSiteHeaderModel">
+
+
+    <div style="background-image:url('${refObject.fileReference @ context='uri'}'); height:300px;background-repeat:no-repeat">
+    <div>
+    ${refObject.headerTitle}
+</div>
+
+<div>
+	${refObject.headerDesc}
+</div>
+
+<div>
+<a href="${refObject.buttonLink}"><button>${refObject.buttonText}</button></a>
+
+    </div>
+   </div>
+
+
+</sly>

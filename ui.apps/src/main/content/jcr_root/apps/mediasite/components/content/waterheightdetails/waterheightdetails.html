@@ -1,0 +1,14 @@
+
+<div
+    data-sly-use.multiItems="com.mediasite.core.models.WaterHeights">
+    <div data-sly-list.head="${multiItems.mediaheights.listChildren}">
+   
+
+        <p><b>Height:</b> ${head.heights}</p>
+
+        <p><b>Date:</b> ${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format= head.startDate, timezone='UTC'}</p> 
+
+
+      <hr>
+   </div>
+</div>

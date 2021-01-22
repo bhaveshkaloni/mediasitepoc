@@ -4,7 +4,10 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-01-18T20:13:14.265+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/mediasite/settings/wcm/templates/content-page-template"
+        jcr:language="en_gb"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
         sling:resourceType="mediasite/components/structure/page"
@@ -18,5 +21,38 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
+        <parcontent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <goto_copy jcr:primaryType="nt:unstructured"/>
+            <headercomponent
+                jcr:created="{Date}2020-12-14T10:32:21.849+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-12-14T10:34:11.011+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mediasite/components/content/headerComponent"
+                buttonLink="/content/mediasite/us/it/water-heights"
+                buttonText="CTA"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                headerDesc="Header Description"
+                headerTitle="Header Title"/>
+        </parcontent>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <productdetails
+                jcr:created="{Date}2021-01-18T12:45:38.550+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-01-18T12:53:39.184+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mediasite/components/content/productDetails"
+                productId="HD9650_99"/>
+        </content>
     </jcr:content>
+    <product-detail/>
+    <weatherpage/>
+    <fff/>
+    <test4/>
 </jcr:root>
